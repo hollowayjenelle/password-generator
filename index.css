@@ -1,4 +1,70 @@
+@font-face {
+    font-family: "Karla";
+    src: url(https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap);
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(https://fonts.googleapis.com/css2?family=Inter&display=swap);
+}
+
 body{
     margin: 0px;
-    background-color: #ECFDF5;
+    background-color: #1f2937;
+}
+
+.container{
+    padding: 20px;
+}
+
+h1{
+    text-align: left;
+    line-height: 32px;
+    color: white;
+    font-family: "Karla", sans-serif;
+    font-weight: 800;
+
+}
+
+#randomtxt{
+    color: #4adf86;
+}
+
+p{
+    color: #d1d5db;
+    font-family: "Inter", sans-serif;
+    margin-top: -10px;
+    margin-bottom: 8%;
+}
+
+button{
+    background-color: #10b981;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    width: 170px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 20px;
+
+}
+
+hr{
+    border: 1px solid #2f3e53;
+}
+
+.pw-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.passwords{
+    background-color: #273549;
+    color: #55f991;
+    font-family: "Inter", sans-serif;
+    border-radius: 6px;
+    width: 211px;
+    height: 39px;
+    margin-top: 10px;
 }
