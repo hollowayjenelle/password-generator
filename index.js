@@ -9,8 +9,15 @@ let passwordOne = document.getElementById("password-one")
 let passwordTwo = document.getElementById("password-two")
 
 function generatePassWord(){
-    for (let i = 0; i < passwordLength; i++){
-        passwordOne.textContent += characters[Math.floor(Math.random() * characters.length)]
-        passwordTwo.textContent += characters[Math.floor(Math.random() * characters.length)]
+    if (passwordOne.innerText === "" && passwordTwo.innerText === ""){
+        for (let i = 0; i < passwordLength; i++){
+            passwordOne.textContent += characters[Math.floor(Math.random() * characters.length)]
+            passwordTwo.textContent += characters[Math.floor(Math.random() * characters.length)]
+        }
+    }else{
+        passwordOne.textContent = ""
+        passwordTwo.textContent = ""
+        generatePassWord()
     }
+    
 }
