@@ -65,6 +65,8 @@ hr{
     font-family: "Inter", sans-serif;
     border-radius: 6px;
     width: 211px;
-    height: 39px;
+    height: 25px;
     margin-top: 10px;
+    text-align: center;
+    padding-top: 10px;
 }
